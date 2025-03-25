@@ -1,0 +1,34 @@
+.btn {
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  max-width: max-content;
+  cursor: pointer;
+  border: none;
+  line-height: 150%;
+  font-size: 14px;
+}
+
+.primary {
+  --background: var(--primary);
+  --foreground: var(--primary-foreground);
+}
+
+.primary:hover {
+  background-color: rgba(var(--background), 90%);
+}
+
+.secondary {
+  --background: var(--secondary);
+  --foreground: var(--secondary-foreground);
+}
+
+.secondary:hover {
+  background-color: rgba(var(--background), 70%);
+}
+
+.tertiary {
+  --foreground: var(--foreground);
+  --border: var(var(--border));
+}

@@ -1,0 +1,15 @@
+.featured-card-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  padding: 24px;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: cover;
+}
+.featured-card-container h1 {
+  font-size: 32px;
+}
+.featured-card-container p {
+  color: rgb(var(--card-foreground));
+}

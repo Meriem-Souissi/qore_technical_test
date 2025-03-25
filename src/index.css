@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --background: 252, 252, 251;
+  --secondary-background: 241, 236, 225;
+  --foreground: 28, 24, 18;
+  --border: 150, 148, 145;
+  --primary: 81, 68, 50;
+  --primary-foreground: 247, 247, 246;
+  --secondary: 223, 222, 221;
+  --secondary-foreground: 28, 24, 18;
+  --card-foreground: 101, 98, 94;
+  --divider: 198, 197, 195;
+  --footer: 174, 173, 170;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Inter;
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+main {
+  min-height: calc(100vh - 202px);
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 113%;
+}
+
+p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1072px;
+  padding: 80px 24px;
+  margin-inline: auto;
+  row-gap: 24px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  .container {
+    padding: 40px 24px;
+  }
+}

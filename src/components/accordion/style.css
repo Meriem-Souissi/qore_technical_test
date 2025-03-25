@@ -1,0 +1,46 @@
+.accordion-trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  border: none;
+  border-bottom: 1px solid rgb(var(--border));
+  transition: 0.4s;
+  width: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.accordion-content {
+  display: none;
+  overflow: hidden;
+}
+
+.active {
+  display: block;
+}
+
+.accordion-arrow {
+  transition: 0.2s;
+}
+
+.accordion-arrow.active-state {
+  rotate: 180deg;
+}
+
+/* ACCORDION CONTENT */
+.accordion-content-container {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.accordion-content-description {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
