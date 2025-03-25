@@ -58,7 +58,7 @@ function Navbar() {
             </li>
           </Link>
         </ul>
-        <div onClick={() => toggleMenu()}>
+        <div onClick={() => toggleMenu()} className="mobile-menu">
           <MobileMenu />
         </div>
 
